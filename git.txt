@@ -1,0 +1,2 @@
+git init --  começa tudo novo
+git add. -- prepara os arquivs pra comit
