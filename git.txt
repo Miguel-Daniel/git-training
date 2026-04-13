@@ -5,3 +5,4 @@ git status --- mostra se ta tudo ok ou faltou entrar uma nova atualização
 git add nomedoarquivo.txt --- commita somente o arquvio selecionado
 git log --- mostra o historico dos commit e diz as informações
 git diff --- mostra no console as difereças das alterações recem feitas
+git restore nomedoarquivo.txt --- desfaz as alterações feitas no documento
