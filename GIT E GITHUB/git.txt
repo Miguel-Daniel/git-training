@@ -19,3 +19,4 @@ git remote add 'origin' URL-AQUI  --- Se conecta ao repositorio online no github
 git push origin nome-branch --- Envia os arquivos locais da branch selecionada pro gitub
 git pull origin nome-branch --- Puxa os arquivos que estão no repositorio online
 git fetch --- Sincroniza puxando todas as novas branch que foi criada no github pro arquvo local
+git clone URL-AQUI --- Pega e clona um repositorio online na maquina local
