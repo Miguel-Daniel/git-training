@@ -1,5 +1,5 @@
-git init --  começa tudo novo
-git add. -- prepara os arquivs pra comit
+git init --- começa tudo novo
+git add. --- prepara os arquivs pra comit
 git commit -m "versão 1.0" --- pra comentar e salavar
 git status --- mostra se ta tudo ok ou faltou entrar uma nova atualização
 git add nomedoarquivo.txt --- commita somente o arquvio selecionado
@@ -10,3 +10,11 @@ git branch --- me diz qual raificação eu estou
 git checkout -b ramificaçao-dois --- cria uma nova ramificação e me move pra ela
 git checkout master --- eu volto pra ramificação principal ou para outra depedendo do nome
 git merge ramificaçao-dois --- mescla as informações e uma raificação para outra
+------------------------------------------------------------------------------------
+REPOSITORIO REMOTO -- GITHUB
+-------------------------------------------------------------------------------------
+no gitub crie um novo repositorio, ao criar  ele vai disibilizar  link dele e alguns comando git, vamos usar:
+git remote add 'origin' URL-AQUI  --- Se conecta ao repositorio online no github
+git push origin nome-branch --- Envia os arquivos locais da branch selecionada pro gitub
+git pull origin nome-branch --- Puxa os arquivos que estão no repositorio online
+git fetch --- Sincroniza puxando todas as novas branch que foi criada no github pro arquvo local
