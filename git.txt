@@ -6,3 +6,6 @@ git add nomedoarquivo.txt --- commita somente o arquvio selecionado
 git log --- mostra o historico dos commit e diz as informações
 git diff --- mostra no console as difereças das alterações recem feitas
 git restore nomedoarquivo.txt --- desfaz as alterações feitas no documento
+git branch --- me diz qual raificação eu estou
+git checkout -b ramificaçao-dois --- cria uma nova ramificação e me move pra ela
+git checkout master --- eu volto pra ramificação principal ou para outra depedendo do nome
