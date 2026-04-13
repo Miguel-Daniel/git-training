@@ -1,2 +1,5 @@
 git init --  começa tudo novo
 git add. -- prepara os arquivs pra comit
+git commit -m "versão 1.0" --- pra comentar e salavar
+git status --- mostra se ta tudo ok ou faltou entrar uma nova atualização
+git add nomedoarquivo.txt --- commita somente o arquvio selecionado
